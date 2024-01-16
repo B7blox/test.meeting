@@ -53,7 +53,7 @@ y: 160 ,
 dx: grid,
 dy: 0,
 cells: [],
-maxcells: 4
+maxCells: 4
    } ;
    var apple = {
     x: 320,
@@ -93,7 +93,7 @@ else if (e.which === 40 && snake.dy === 0) {
     // game loop
     function loop() {
         requestAnimationFrame(loop);
-        if (++count < 6) {
+        if (++count < 3) {
             return;
         }
         count = 0;
